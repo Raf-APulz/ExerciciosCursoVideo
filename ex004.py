@@ -1,0 +1,16 @@
+escreva = input('Digite algo:')
+print(f'{escreva} é um alnum?', escreva.isalnum())
+print(f'{escreva} é um alpha?', escreva.isalpha())
+print(f'{escreva} é um ascii?', escreva.isascii())
+print(f'{escreva} é um digit?', escreva.isdigit())
+print(f'{escreva} é um lower?', escreva.islower())
+print(f'{escreva} é um decima?', escreva.isdecimal())
+print(f'{escreva} é um identifier?', escreva.isidentifier())
+print(f'{escreva} é um numeric?', escreva.isnumeric())
+print(f'{escreva} é um printable?', escreva.isprintable())
+print(f'{escreva} é um space?', escreva.isspace())
+print(f'{escreva} é um title?', escreva.istitle())
+print(f'{escreva} é um upper?', escreva.isupper())
+print(f'{escreva} é um __init_subclass__?', escreva.__init_subclass__())
+
+
